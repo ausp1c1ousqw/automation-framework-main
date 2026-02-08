@@ -2,6 +2,7 @@ import path from "path";
 import { ensureDirExists } from "./ensureDirExists.js";
 
 const debugDir = process.env.DEBUG_DIR || "./artifacts";
+console.log(debugDir);
 
 export function getDailyDebugDir() {
   const today = new Date();
